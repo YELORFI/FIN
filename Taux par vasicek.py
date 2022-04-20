@@ -2,10 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import norm
-
-
-from svensson import *
-
 #------------------------------------------------------------------------------
 
 def vasicek(r0, theta, kappa, sigma, T = 1., N = 100, seed = 0):
