@@ -8,7 +8,7 @@ from svensson import *
 
 #------------------------------------------------------------------------------
 
-def vasicek_process(r0, theta, kappa, sigma, T = 1., N = 100, seed = 0):
+def vasicek(r0, theta, kappa, sigma, T = 1., N = 100, seed = 0):
     if seed != 0:
         np.random.seed(seed)
 
